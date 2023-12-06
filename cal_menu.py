@@ -61,11 +61,7 @@ def fib(a,r):
    
 def arm():
     num = int(input("Enter a number: "))
-
-
     sum = 0
-
-    
     temp = num
     while temp > 0:
         digit = temp % 10
@@ -108,8 +104,7 @@ while(temp==0):
    if(con==1):
     
     # print("ans  =  ", res)
-    op = input("""Enter operation: \n 1. Addition \n 2. Substraction \n 3. Multipication \n 4. Divided \n 
-    5. clear\n 6. History\n 7. Other operation\n""")
+    op = input("""Enter operation: \n 1. Addition \n 2. Substraction \n 3. Multipication \n 4. Divided \n 5. clear\n 6. History\n 7. Other operation\n""")
        
     if op=="5":
         history.clear()
@@ -124,6 +119,7 @@ while(temp==0):
             con=0
             temp=0
             res.clear()
+            history.clear()
             
             break
     else:       
@@ -155,24 +151,14 @@ while(temp==0):
 
             div(f_no,s_no)
             con=1
-               # case "5":
-           
-             
-        # case "6":
-             
-        #     print(history)
-       
-             
-        # case "7":
-        #     break
            
           
 else:
-    print("exit")
+    # print("exit")
 
 
 # f_no = int(input("Enter no :- "))
-op = input("Enter operation: \n 1. fibonacis \n 2. Square Root \n 3. Cube  \n ")
+    op = input("Enter operation: \n 1. fibonacis \n 2. Amrstong no \n 3. Cube  \n ")
 
 # s_no = int(input("Enter second no :- "))
 
@@ -227,17 +213,6 @@ while(True):
             con=1
 
 
-        # case "5":
-           
-             
-        # case "6":
-             
-        #     print(history)
-       
-             
-        # case "7":
-        #     break
-           
           
 else:
     print("exit")
