@@ -3,8 +3,8 @@
 # import math
 
 
-# def add(a,b):
-#     print("Addition = ",a+b)
+def add(a,b):
+     print("Addition = ",a+b)
 
 # def sub(a,b):
 #     print ("substraction = ",a-b)
